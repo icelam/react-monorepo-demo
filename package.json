@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "workspaces": ["app-1", "app-2", "common"],
+  "scripts": {
+    "start:app-1": "yarn --cwd app-1 start",
+    "start:app-2": "yarn --cwd app-2 start"
+  }
+}
